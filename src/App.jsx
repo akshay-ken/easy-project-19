@@ -37,7 +37,7 @@ function App() {
     <>
       <main className="w-full my-28 max-w-sm md:max-w-3xl mx-auto font-one md:grid md:grid-cols-2">
         <SectionOne />
-        <SectionTwo />
+        <SectionTwo pricingPlans={pricingPlans} />
         <SectionThree />
       </main>
 
