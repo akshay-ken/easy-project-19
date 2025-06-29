@@ -1,3 +1,6 @@
+import { FiChevronLeft } from "react-icons/fi";
+import { FiChevronRight } from "react-icons/fi";
+
 export function SectionTwo() {
   return (
     <>
@@ -14,6 +17,14 @@ export function SectionTwo() {
         <button className="bg-Bright-Yellow p-4 rounded-md w-full font-bold text-2xl text-white/80">
           Sign Up
         </button>
+        <div className="flex justify-around">
+          <button className=" scale-100 active:scale-125">
+            <FiChevronLeft className="fill-red-500 size-10" />
+          </button>
+          <button className=" scale-100 active:scale-125">
+            <FiChevronRight className="fill-red-500 size-10" />
+          </button>
+        </div>
       </section>
     </>
   );
